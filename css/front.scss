@@ -5,12 +5,76 @@
 
 @charset "utf-8";
 
-html { 
-  background: url(/assets/monica.jpg) no-repeat center center fixed; 
+/* path to glyphicons */
+$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* custom variable */
+$body-bg: none;
+$text-color:         white;
+
+$navbar-default-bg: black;
+$navbar-default-border: darken(white, 6.5%);
+
+/* any style customization must be before the bootstrap import */
+@import "bootstrap";
+
+html{
+  height:100%;
+  width:100%;
+} 
+
+body { 
+  background: url(/assets/portrait_2000.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-$brand-primary:         white;
+header {
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  header {
+    margin: 50px auto;
+  }  
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.navbar
+{
+  background: black;
+	max-width:300px;
+	margin-right: 0;
+	margin-left: 0;
+}	
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+}
+
