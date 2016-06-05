@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ " /css/front.css " | prepend: site.baseurl }}">
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container-fluid">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
