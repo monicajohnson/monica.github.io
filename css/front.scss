@@ -5,6 +5,10 @@
 
 @charset "utf-8";
 
+@import 'https://fonts.googleapis.com/css?family=Bree+Serif';
+
+$font-family-base: 'Bree Serif', serif;
+
 /* path to glyphicons */
 $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
@@ -35,6 +39,16 @@ header {
   margin: auto;
 }
 
+.navbar-brand {
+  font-size: 32px;
+}
+
+
+.job-title {
+    @extend .navbar-brand;
+    font-size: 28px;
+}
+
 @media (min-width: 768px) {
   header {
     margin: 50px auto;
@@ -57,10 +71,14 @@ header {
     overflow-x: visible;
   }
 
+
+
+
+
 .navbar
 {
   background: black;
-	max-width:300px;
+	max-width:450px;
 	margin-right: 0;
 	margin-left: 0;
 }	
