@@ -39,9 +39,6 @@ header {
   margin: auto;
 }
 
-.navbar-brand {
-  font-size: 32px;
-}
 
 
 .job-title {
@@ -50,6 +47,10 @@ header {
 }
 
 @media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 32px;
+  }
+  
   header {
     margin: 50px auto;
   }  
