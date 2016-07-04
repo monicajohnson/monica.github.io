@@ -16,6 +16,8 @@ url: "http://192.168.10.128:4000/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+exclude: [/bower_components/]
+
 sass:
   # loading path from site root
   # default to _sass
