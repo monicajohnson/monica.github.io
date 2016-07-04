@@ -11,7 +11,7 @@ job: Clinical Psychologist
 email: info@monicajohnson.org
 description: Dr. Monica Johnson, Psy.D.  Psychologist specializing in DBT.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://monicajohnson..github.io/" # the base hostname & protocol for your site
+url: "http://monicajohnson.github.io/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
