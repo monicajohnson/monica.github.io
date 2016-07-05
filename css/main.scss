@@ -12,20 +12,24 @@ $font-family-base: 'Bree Serif', serif;
 /* path to glyphicons */
 $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
-/* custom variable */
-//$body-bg: #1C1815;
-//text-color: rgba(255, 255, 255, 0.5);
+.navbar-brand small {
+  display:block;
+}
 
-
-
-//$navbar-default-bg: black;
-//$navbar-default-border: darken(white, 6.5%);
-
-header {
-    .nav-pills {
-        //margin-top: 4px;
+.navbar-brand {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        height:70px;
     }
 }
+    
+ul.navbar-nav li a {
+    line-height: 35px;
+} 
 
 /* any style customization must be before the bootstrap import */
 @import "bootstrap";

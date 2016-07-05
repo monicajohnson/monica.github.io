@@ -40,7 +40,9 @@ header {
   margin: auto;
 }
 
-
+.navbar-brand small {
+  display:block;
+}
 
 .job-title {
     @extend .navbar-brand;
@@ -49,5 +51,11 @@ header {
 
 .collapse.in > .navbar-nav {
   display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        height:70px;
+    }
 }
 

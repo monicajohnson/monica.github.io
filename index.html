@@ -11,20 +11,18 @@ layout: front
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-      <a class="navbar-brand text-uppercase" href="#">{{ site.title }}</a>
+        <a class="navbar-brand text-uppercase" href="#">{{ site.title }}
+        <small>{{ site.job }}</small></a>
+      </ul>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
-        <li class="navbar-text job-title">{{ site.job }}</li>
         <li><a href="/bio">Bio</a></li>     
         <li>
           <ul id="social-drilldown" class="nav nav-pills">
-            <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            {% include social.html %}
           </ul>
         </li>
       </ul>

@@ -39,7 +39,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand text-uppercase" href="{{site.url}}">{{ site.title }}</a>
+                    <a class="navbar-brand text-uppercase" href="/">{{ site.title }}
+                        <small>{{ site.job }}</small></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,10 +48,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Bio</a></li>
                         <li>&nbsp;</li>
-                        <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        {% include social.html %}
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

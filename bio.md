@@ -11,15 +11,8 @@ permalink: /bio/
     <div class="col-sm-8 col-sm-pull-4">
         <div class="panel panel-default">
             <div class="panel-body">
-                <p>Lorem ipsum dolor sit amet, vix mundi impedit te, vix cu laudem facilisi, no eos ipsum utamur urbanitas. An soluta regione sadipscing per. Duo at erant fabellas, ea pri illum mnesarchum. Eum novum fastidii ad, noster verear reformidans et vim. Everti platonem et eam.</p>
-
-                <p>Vel feugait ponderum electram et. Soleat splendide mei ne, vis indoctum principes honestatis at. Ad quo iudicabit delicatissimi, vel cu audiam dissentiet, te sale quas scriptorem eam. Id falli aliquando est, te vix fugit voluptatum posidonium, ei duo doctus vidisse. Sit et eius dicant electram, an assum lobortis eum.</p>
-
-                <p>Modus tollit postulant ius ut, ad nec eros iriure, mel sonet postulant ei. Cum te augue euismod scaevola, vim oportere pertinacia intellegam ei, ea est diam intellegat ullamcorper. Ne vitae impetus per, quo in summo ullamcorper. Qui in dolor detracto. Nisl quodsi splendide mei id, alia explicari deseruisse in mel. His quem adolescens no, verear virtute alienum ex sed.</p>
-
-                <p>Ponderum nominati perpetua mel ad, ut eos possit prompta, id meis labitur quo. Fugit causae rationibus vix no, alia perpetua adipiscing te usu, unum quidam mediocrem mei an. Ne nisl placerat has, vix soleat iisque reformidans ex, causae maiorum scribentur in ius. Cum erat malis ad. Putent praesent pri ne, te ridens accusam electram eam. Cu prima adhuc eos, brute dolor id per, ut sit movet mucius luptatum.</p>
-
-                <p>Ex ius etiam congue, dicam oblique in nec, ut duo audiam appetere menandri. Vim et fugit detraxit, ei eum porro summo, suas copiosae nam te. Ne his illud causae democritum, his magna ancillae voluptatibus et, has ex harum legere. Et dolor debitis omnesque vis, id minim senserit salutandi pro.</p>
+                <p>Dr. Monica Johnson currently works in community mental health, primarily with adults treating a wide range of disorders. She spends her time both in the traditional role of Psychologist and as a Behavioral Health Consultant in primary care. She works almost solely with undeserved populations with many of her patients being homeless. In her clinical practice, she delivers Cognitive Behavior Therapy (CBT) and other evidence based practices including Dialectical Behavior Therapy (DBT) Dr. Johnson also created and oversees the Anger Management and DBT programs at her organization. Additionally, she also trains practicum students, interns, postdoctoral fellows, and licensed professionals in a variety of topics including: DBT, mindfulness, a variety of diversity/cultural competence issues, patient engagement, and trauma informed care with the homeless population.</p> 
+                <p>Dr. Johnson received her B.A. degree in Experimental Psychology from the University of South Carolina. She received her doctoral degree in Clinical Psychology from the Arizona School of Professional Psychology. She completed an APA accredited internship at Human Services, Inc. (now Canvas Health) in Oakdale, MN.</p>             
             </div>
         </div>
     </div>
