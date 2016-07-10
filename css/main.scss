@@ -31,6 +31,10 @@ ul.navbar-nav li a {
     line-height: 35px;
 } 
 
+h1.panel-title {
+    color: black;
+}
+
 /* any style customization must be before the bootstrap import */
 @import "bootstrap";
 @import "bootstrap/theme";

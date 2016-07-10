@@ -18,9 +18,9 @@ url: "http://www.monicajohnson.org/" # the base hostname & protocol for your sit
 twitter: MJohnsonPsyD
 youtube: https://www.youtube.com/channel/UC7KUkQIa4n-or2DBC4zWJSA
 
-
 # Build settings
 markdown: kramdown
+excerpt_separator: <!--more-->
 
 exclude: [/bower_components/]
 
